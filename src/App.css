@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App .App-header {
+  background-color: #1e2131;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: flex-start;
+  padding: 40px 80px 40px 80px;
+  margin: 20px;
+  color: white;
+}
+
+.App .App-header nav {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+  color: white;
+}
+
+.App .App-header .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.App .App-header .banner h1 {
+  width: 50vw;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin: 3rem 0 1.3rem 0;
+}
+
+.App .App-header .banner p {
+  width: 22vw;
+  font-size: 1.1rem;
+  margin: 0 0 3rem 0;
+}
+
+.App .App-header .banner .cta-banner {
+  background-color: #fff;
+  color: #1e2131;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem 2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.App article {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 80px 40px 80px;
+}
+
+.App article ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.App article ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.App article ul li h2 {
+  padding: 0 0 0 1.1rem;
+  margin: 0;
+}
